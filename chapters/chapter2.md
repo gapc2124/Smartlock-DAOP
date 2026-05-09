@@ -278,53 +278,60 @@ El objetivo de estas entrevistas es comprender sus necesidades, problemas actual
 
 ### 2.2.2 Registro de entrevistas
 
-En esta sección se consolidan las entrevistas realizadas para la validación de la propuesta de valor. Cada sesión ha sido documentada para asegurar la trazabilidad de los hallazgos.
+En esta sección se consolidan las seis entrevistas realizadas para la validación de la propuesta de valor de SmartLock. Cada sesión ha sido documentada para asegurar la trazabilidad de los hallazgos y la construcción de nuestros arquetipos.
 
-| Nombre del Entrevistado | Segmento | Enlace de la Entrevista (Drive) |
-| :--- | :--- | :--- |
-| Almendra Lucía Lavi Cuyubamba | Organizador de eventos | [Enlace al drive](https://drive.google.com/drive/folders/1Uhej5HwTiy1H02ks4PsJ1ypoxCMtlsuX?usp=sharing) |
-| Evelyn Jannet Caldas Párraga | Organizador de Eventos | [Enlace al video](https://drive.google.com/drive/folders/1JFUE4UwyJyrbLREk2UrAOmn6ZuhBJyHT?usp=sharing) |
-| Josue Nolasco | Organizador de eventos | [Enlace al video](https://drive.google.com/drive/folders/1Z8a_31JU139vRjelw6E6odRUEEG1zb4N?usp=sharing) |
-| Anthony Nolasco | Empresario | [Enlace al video](https://drive.google.com/drive/folders/1BYn2a5jxz758K4LYA9w57gxhZQiKlB_P?usp=sharing) |
-| Monica Moreno Olivera | Empresario | [Enlace al video](https://drive.google.com/drive/folders/1xa4zk88iqrlRpYc5PhleA7pgUyJ_iNaL?usp=sharing) |
-| Hugo Ricardo Rojas | Empresario | [Enlace al video](https://drive.google.com/drive/folders/1wupFFeJ_Gso7lkt-E98uMOC2pvaAPjVk?usp=sharing) |
+| Nombre del Entrevistado | Edad | Distrito | Segmento | Captura de Video | Enlace de la Entrevista (Stream) | Tiempo de Inicio | Duración |
+| :--- | :---: | :--- | :--- | :---: | :--- | :---: | :---: |
+| Almendra Lucía Lavi | 21 | La Molina | Organizador | ![Captura](../Resources/Chapter2/interviews/entrevista1.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=0id4Mb) | 00:00 | 09:10 |
+| Leugim Sajor | 32 | Surco | Organizador | ![Captura](../Resources/Chapter2/interviews/entrevista2.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=a2Ghfv) | 09:10 | 06:30 |
+| Evelyn Jannet Caldas | 48 | Ate | Organizador | ![Captura](../Resources/Chapter2/interviews/entrevista3.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=uTUBUB) | 15:40 | 13:30 |
+| Larissa Teofilo | 28 | Surco | Empresario | ![Captura](../Resources/Chapter2/interviews/entrevista4.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=CY27NN) | 29:10 | 06:40 |
+| Hugo Rojas O. | 72 | La Molina | Empresario | ![Captura](../Resources/Chapter2/interviews/entrevista5.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Ypp2WU) | 35:50 | 11:10 |
+| Hugo Ricardo Rojas P. | 35 | Ate | Empresario | ![Captura](../Resources/Chapter2/interviews/entrevista6.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Pw5K7G) | 47:00 | 08:20 |
+
+---
 
 ### 2.2.3 Análisis de entrevistas
 
-A continuación, se presenta un análisis detallado de cada una de las sesiones de validación. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos y la recepción de la propuesta de valor de SmartLock por parte de cada entrevistado.
+A continuación, se presenta un análisis detallado de cada una de las sesiones de validación. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos, rasgos de personalidad y la recepción de la propuesta de valor de SmartLock.
 
 #### Segmento: Organizadores de Eventos
 
 **1. Almendra Lucía Lavi Cuyubamba**
-de 21 años, es estudiante de la carrera de Marketing y organizadora de eventos coorporativos en la empresa llamada Okawa. Almendra Suele organizar sus eventos llevando un conteo de registros en formularios tipo google forms, donde las personas que asistirán al evento se registran. Sin embargo no tiene una manera de asegurarse que la persona registrada es alguien que tiene permiso de ingreso a las oficinas coorporativas. También tiene el problema de que muchas personas se aglomeran cerca a la hora de inicio de la conferencia provocando cierto desorden. Le gustaría que se activen servicios de IA una vez las personas ingresen al area. Le gustaría que mejore la experiencia de usuario. Le parece innovadora la idea de SmartLock y estaría dispuesta a usarlo si los beneficios en seguridad y ahorro de tiempo supera el precio del software. Prefeririá que tenganmos tanto app web como app movil. Lo más interesante de todo para ella es ver el aforo en tiempo real
+Almendra, de 21 años, es estudiante de la carrera de Marketing en la USIL y organizadora de eventos corporativos en la empresa Okawa. De personalidad extrovertida, detallista y muy dinámica, siempre busca la eficiencia y la mejor experiencia para sus asistentes. Suele organizar sus eventos llevando un conteo de registros en Google Forms, pero no tiene una manera ágil de asegurarse que la persona registrada tenga permiso real de ingreso. Esto le genera aglomeraciones cerca de la hora de inicio. Le parece innovadora la idea de SmartLock para controlar el aforo en tiempo real y estaría dispuesta a usarlo si los beneficios superan el precio, prefiriendo que la solución abarque tanto una app web como móvil.
 
-**2. Evelyn Jannet Caldas Párraga**
-tiene 48 años, graduada como administradora de empresas es secretaria y organizadora de eventos familiares en el colegio Norteamericano Abraham Lincoln. Evelyn gestiona el acceso a eventos institucionales dirigidos exclusivamente a socios y sus familias, utilizando actualmente plataformas como Joinnus para el registro digital y la venta de tickets. Aunque cuenta con procesos definidos, identifica un problema importante en la logística con proveedores: los cambios de último minuto en el personal externo generan demoras operativas, ya que debe asignar personal específicamente para verificaciones manuales. Para la seguridad interna de la empresa, recalca que el control es vital para proteger documentación sensible y activos contables. Evelyn muestra una clara preferencia por una solución basada 100% en software y la nube (SaaS), rechazando la implementación de hardware o servidores físicos por los costos de mantenimiento y espacio que implican. Lo que más le atrae de SmartLock es la capacidad de recibir alertas automáticas de acceso denegado y la generación de reportes estadísticos e indicadores de asistencia, lo cual considera clave para reducir horas-hombre y mejorar la eficiencia en la toma de decisiones.
+**2. Leugim Sajor**
+Leugim, de 32 años y residente en el distrito de Surco, es un ciudadano extranjero que organiza eventos exclusivos para el sector inmobiliario, donde se presentan proyectos y se atraen nuevos clientes. Posee una personalidad analítica, diplomática y muy estructurada, lo que le ha permitido mantener un negocio muy estable con pocos problemas operativos. Su principal necesidad es mantener la exclusividad y privacidad de las presentaciones inmobiliarias. SmartLock le resulta muy atractivo para gestionar invitaciones VIP con códigos QR temporales, asegurando un ingreso fluido que esté a la altura del perfil de sus clientes de alto poder adquisitivo.
 
-**3. Josue Nolasco**
-[Escribe aquí el párrafo amplio]
+**3. Evelyn Jannet Caldas Párraga**
+Evelyn, de 48 años y graduada de Administración en la UPC, es secretaria y organizadora de eventos en el colegio Norteamericano Abraham Lincoln. Tiene una personalidad metódica, resolutiva y con un alto sentido del control y la seguridad. Gestiona accesos a eventos institucionales utilizando plataformas como Joinnus. Su mayor problema es la logística con proveedores y los cambios de personal de último minuto que requieren verificaciones manuales y demoran el proceso. Evelyn tiene una clara preferencia por soluciones 100% en la nube (SaaS), rechazando el hardware por costos. Le atraen las alertas automáticas de acceso denegado y la generación de reportes de asistencia para optimizar la seguridad contable.
 
 ---
 
 #### Segmento: Empresarios (Dueños/Administradores)
 
-**4. Anthony Nolasco**
-[Escribe aquí el párrafo amplio]
+**4. Larissa Teofilo**
+Larissa, de 28 años y residente en Surco, forma parte de la directiva y gerencia de una exitosa cadena de gimnasios brasileños en el país. De personalidad carismática, observadora y muy orientada al servicio al cliente, ella misma confiesa no ser una experta en el apartado tecnológico, pero es sumamente consciente de los defectos del mismo cuando los sistemas actuales de los gimnasios fallan (como tarjetas perdidas o huellas que no leen). SmartLock le parece una excelente iniciativa para modernizar el ingreso de los socios a través de sus propios celulares, reduciendo las quejas en recepción y mejorando la percepción de innovación de la marca.
 
-**5. Monica Moreno Olivera**
-[Escribe aquí el párrafo amplio]
+**5. Hugo Rojas Olivera**
+Hugo, de 72 años y residente en La Molina, es médico pediatra graduado y con maestría por la UNMSM, y actualmente se desempeña como gerente del Hospital de Emergencias de Villa El Salvador. Posee una personalidad serena, reflexiva, empática y con una profunda vocación de servicio. Lidera una institución crítica que utiliza un software nacional que presenta múltiples defectos, lo que a menudo contribuye a la saturación del hospital en áreas de control y recepción. Para Hugo, una herramienta como SmartLock podría ser vital para agilizar el flujo de personal médico y administrativo, mitigando los cuellos de botella tecnológicos que actualmente padecen.
 
-**6. Hugo Ricardo Rojas Párraga**
-tiene 35, es ingeniero ambiental y gerente de su empresa llamada Gestam Consulting donde se realizan gestiones ambientales a empresas que contraten sus servicios. Hugo ha experimentado problemas con el manejo del acceso a sus oficinas, ya que todo el control lo hace en hojas físicas a mano lo que provoca cierto retraso. Ha tenido malas experiencias donde exempleados ingresan a las instalaciones como lo hacían antes y no desea que eso vuelva a ocurrir. También le gustaría implementar smartlock pagando una membresía económica pero sin adquirir ningún tipo de hardware físico más que los dispositivos móviles. Hugo considera que sería sencillo implementar SmartLock en sus oficinas. Hugo también considera que lo más importante para él son los reportes de asistencia periodicos.
+**6. Hugo Ricardo Rojas P.**
+Hugo, de 35 años y residente del distrito de Ate, es ingeniero ambiental graduado de la Universidad Nacional Agraria La Molina (UNALM) y gerente de la empresa Gestam Consulting. Tiene una personalidad directa, práctica, resolutiva y muy orientada a la protección de los activos de su empresa. Actualmente tiene problemas serios de seguridad para revocar el acceso a exempleados, por lo que necesita una solución inmediata. Es tajante en mencionar que no invertiría en la instalación de hardware físico. Para él, una membresía económica de SmartLock basada puramente en software es la solución perfecta, destacando la importancia de los reportes periódicos de asistencia.
 
 ---
 
 #### Síntesis de hallazgos (Insights principales)
-* **Insight 1:** [Resumen de una verdad descubierta].
-* **Insight 2:** [Resumen de otra verdad].
 
-## 2.3 Needfinding
+* **Insight 1 (Rechazo a la infraestructura física):** la mayoria de los perfiles empresariales aceptan la inversión y mantenimiento de hardware nuevo, excepto por Hugo Rojas. Sin embargo, La propuesta de SmartLock basada en el modelo SaaS y uso de dispositivos móviles propios (BYOD) es el principal gatillador de interés junto con el aforo en tiempo real.
+* **Insight 2 (Gestión crítica de identidades y exclusiones):** Más allá de registrar asistencias, el problema central radica en la invalidación de accesos. Empresarios como Hugo R. Párraga necesitan revocar permisos a exempleados en tiempo real, mientras que organizadores como Almendra y Leugim necesitan asegurar la identidad del asistente para evitar intrusiones.
+* **Insight 3 (Carencias en los sistemas tradicionales):** La mayoría de los entrevistados reporta fricciones graves con sus sistemas actuales (desde software hospitalario saturado hasta registros manuales en papel). Existe una necesidad latente por un software que priorice la rapidez y la facilidad de implementación sin barreras tecnológicas complejas.
 
+## 2.3. Needfinding
+
+En esta sección, el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada en las fases previas. A partir del estudio competitivo frente a alternativas como Kisi o Acceso Total Perú, y tras el análisis de las entrevistas a nuestros segmentos objetivo, comprobamos que existe una fuerte resistencia a la inversión en hardware físico y una clara insatisfacción con los sistemas tradicionales o manuales. La necesidad principal de los usuarios radica en obtener una solución ágil, centralizada en la nube (SaaS) y orientada al uso de dispositivos móviles (BYOD) que permita validar identidades, controlar aforos y revocar accesos en tiempo real. 
+
+Para traducir estos *insights* y puntos de dolor en requerimientos de diseño y de negocio para **SmartLock**, en este apartado se incluyen las secciones de *User Personas, User Task Matrix, User Journey Maps, Empathy Mapping, As-is Scenario Mapping, Big Picture EventStorming* y *Ubiquitous Language*. Estas herramientas nos permiten empatizar a profundidad con el entorno operativo de nuestros arquetipos (el gerente corporativo y la organizadora de eventos), asegurando que la arquitectura y la experiencia de usuario del software resuelvan directamente las fricciones descubiertas.
 ### 2.3. User Personas
 
 En esta sección se presentan las fichas de **User Persona** desarrolladas para los dos segmentos clave de **SmartLock**. La creación de estos arquetipos no es arbitraria; surge directamente del análisis de las entrevistas realizadas y del estudio de la competencia (Kisi, Acceso Total y Kronos). 
@@ -432,7 +439,6 @@ En este mapa empatizamos con el entorno de alta presión de Valeria. Se destacan
 ![Empathy Map - Valeria Rios](/Resources/Chapter2/docs/Valeria%20Empathy%20map.png)
 ### 2.3.5. As-is Scenario Mapping.
 
-<<<<<<< HEAD
 En esta sección, se desarrollan los **As-is Scenario Maps** para nuestros dos arquetipos de usuario: Carlos Ortega y Valeria Rios. A diferencia del Journey Map, que evalúa el ciclo de vida completo del cliente, esta herramienta nos permite desglosar paso a paso las acciones, pensamientos y emociones de los usuarios frente a un **escenario crítico y específico** dentro de su contexto operativo actual (antes de la implementación de SmartLock).
 
 El mapeo de estos escenarios detalla las fases cronológicas de la situación, lo que el usuario "hace", "piensa" y "siente", permitiendo a nuestro equipo identificar las deficiencias técnicas, los altos costos de resolución y los cuellos de botella que justifican el desarrollo de nuestra plataforma digital.
@@ -447,7 +453,7 @@ En este mapa se ilustra el proceso tradicional y reactivo que debe seguir Carlos
 **Escenario evaluado:** Control de acceso y validación de aforo durante la "hora pico" de un evento masivo.
 Este escenario detalla el momento más crítico para Valeria: la apertura de puertas de un evento utilizando listas de Excel impresas y validación manual. Se destacan las acciones de su personal de seguridad (staff), la frustración ante la lentitud del proceso, la presión por las largas colas de asistentes y la imposibilidad de tener un conteo real del aforo en tiempo real para reportar a Defensa Civil.
 
-![As-is Scenario Map - Valeria Rios](../docs/Valeria-As-is-Scenario.png)
+![As-is Scenario Map - Valeria Rios](/Resources/Chapter2/docs/Valeria-As-is-Scenario.png)
 ## 2.4. Big Picture Event Storming
 
 En esta sección, el equipo introduce y resume el proceso colaborativo realizado para entender el dominio del negocio de **SmartLock**. Durante la sesión, nos enfocamos en identificar los eventos significativos, procesos clave y las relaciones entre ellos, permitiéndonos mapear el flujo completo desde que un usuario solicita un acceso hasta que la cerradura se activa mediante el código QR dinámico.
@@ -472,7 +478,6 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 ## Identity & Auth
 
 TERMS:
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
 - Subscription: Platform tenant subscription
 - System User: Admin/Operator/Auditor who accesses the web platform
 - Authentication: Verifying user identity (login + 2FA)
@@ -485,14 +490,12 @@ TERMS:
 
 ---
 
-<<<<<<< HEAD
 ## Organization context
 
 =======
 ## Physical Space
 
 TERMS:
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
 - Location: Physical site/office where doors are installed
 - Door: Physical entry point with access control
 - Access Mode: How door grants access (card, biometric, PIN, etc.)
@@ -501,14 +504,12 @@ TERMS:
 
 ---
 
-<<<<<<< HEAD
 ## Organization context
 
 =======
 ## Access Control
 
 TERMS:
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
 - Access User: Person who passes through physical doors
 - Access Policy: Set of rules defining who can access
 - Schedule: Time windows for access (workdays, hours)
@@ -520,14 +521,12 @@ TERMS:
 
 ---
 
-<<<<<<< HEAD
 ## Security context
 
 =======
 ## Security
 
 TERMS:
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
 - Security Alert: Notification of suspicious/unsafe activity
 - Access Denial Reason: Why access was denied (invalid credentials, out of schedule, policy violation)
 - Repeated Failed Attempts: Multiple failed access attempts
@@ -539,7 +538,7 @@ TERMS:
 
 ---
 
-<<<<<<< HEAD
+
 ## Subscription context
 
 - Subscription Plan: Paid tier (Principiante, Eventos, Corporativo)
@@ -548,13 +547,8 @@ TERMS:
 
 TERMS:
 - Subscription Plan: Paid tier (FREE, PROFESSIONAL, ENTERPRISE)
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
 - Subscription Upgrade/Downgrade: Plan level changes
 - Payment Failure: Failed billing transaction
 - Billing Renewal: Automatic recurring payment
 - History Archive: Storing old access logs
-<<<<<<< HEAD
 - Deactivation: Disabling user/location access
-=======
-- Deactivation: Disabling user/location access
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
