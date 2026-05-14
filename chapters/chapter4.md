@@ -464,7 +464,10 @@ Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de Sm
 **Descripción:** Ventana segura para salir de la plataforma.
 
 ### 4.4.4. Web Applications User Flow Diagrams.
-*[Sección en desarrollo]*
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/userflow/userflow.png" width="800" alt="Logout Mockup">
+</p>
+
 
 ## 4.5. Web Applications Prototyping.
 *[Sección en desarrollo]*
