@@ -318,41 +318,28 @@ Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de Sm
 En esta sección se detalla el diseño táctico del sistema, profundizando en la arquitectura y los componentes técnicos necesarios para implementar la solución. A diferencia del Big Picture, el DesignLevel Event Storming se enfoca en definir los límites de los agregados, los comandos que disparan cambios de estado y las políticas que gobiernan las reglas de negocio.
 
 <p align="center">
-  <img src="/Resources/Chapter4/eventStormin/design-level.jpeg" width="800" alt="Design Level Event Storming">
+  <img src="/Resources/Chapter4/eventStormin/DesignLevel.png" width="800" alt="Design Level Event Storming">
 </p>
 
-#### Authentication Context
-Actúa como la puerta de entrada digital al ecosistema de SmartLock, gestionando los procesos de registro y acceso de los usuarios administrativos. Este componente se encarga de validar las credenciales de identidad y de implementar medidas de seguridad reforzadas, como la verificación en dos pasos (2FA), para garantizar que solo las personas legítimas ingresen al sistema. Además, supervisa la integridad de las sesiones activas, aplicando reglas automáticas que protegen la cuenta global ante cualquier cambio de seguridad o intento de acceso no autorizado.
+### 1. Space Management (Gestión de Espacios)
+Es el contexto central encargado de la infraestructura física y lógica de la plataforma. Su responsabilidad principal es modelar la jerarquía operativa, gestionando entidades como **Organizations**, **Sites** (sedes) y **Zones**. Este contexto administra la relación entre los activos físicos y su ubicación, permitiendo que la plataforma identifique la posición de los dispositivos de bloqueo digital.
+<img src="/Resources/Chapter4/eventStormin/space-management-Context.png">
 
-<p align="center">
-  <img src="/Resources/Chapter4/eventStormin/authentication-context.png" width="800" alt="Authentication Context">
-</p>
+### 2. Access Control (Control de Acceso)
+Este contexto se enfoca estrictamente en la autorización y la seguridad física. Gestiona las identidades mediante la entidad **Subject** y su agrupación en **Groups** para facilitar la asignación masiva de permisos. Su lógica de negocio define quién tiene permitido ingresar a áreas específicas basándose en la validación de tokens y reglas de seguridad configuradas.
+<img src="/Resources/Chapter4/eventStormin/Acces-Context.png">
 
-#### Organization Context
-Constituye el núcleo operativo del sistema, encargado de estructurar la jerarquía institucional y física de cada cliente. Este componente facilita la creación de entidades globales, la gestión de sedes o sitios específicos y el registro técnico de cada punto de acceso o puerta dentro de la plataforma. Al centralizar esta estructura, el sistema asegura que la administración de los espacios físicos sea coherente y escalable, sirviendo como la base informativa necesaria para que los demás módulos operen según la distribución administrativa de la organización.
+### 3. Authentication (Autenticación e Identidad)
+Responsable de la seguridad a nivel de software y la validación de la identidad del usuario en el sistema. Administra las **Accounts**, los hashes de contraseñas y los roles de usuario. Asegura que el usuario sea quien dice ser antes de permitirle interactuar con la interfaz del frontend o las APIs de la aplicación.
+<img src="/Resources/Chapter4/eventStormin/Authentication-Context.png">
 
-<p align="center">
-  <img src="/Resources/Chapter4/eventStormin/organization-context.png" width="800" alt="Organization Context">
-</p>
+### 4. Report & Audit (Reportes y Auditoría)
+Dedicado a la observabilidad y la persistencia de eventos históricos dentro del ecosistema SmartLock. Utiliza entidades como **Audit**, **AuditRecord** y **Alert** para registrar cada acción realizada por los usuarios y cada anomalía detectada por los dispositivos. Es fundamental para el cumplimiento normativo y la reconstrucción de líneas de tiempo ante incidentes de seguridad.
+<img src="/Resources/Chapter4/eventStormin/Report-Context.png">
 
-#### Security Context
-Centraliza la gestión de identidades y la integridad del sistema SmartLock, asegurando que solo el personal autorizado interactúe con la infraestructura física. Este componente se encarga de validar el acceso en tiempo real y coordinar las respuestas automáticas ante situaciones críticas o intentos de intrusión. Al aislar estas funciones, se garantiza una capa de protección robusta que salvaguarda tanto la información digital como la seguridad de los espacios físicos administrados.
-<p align="center">
-  <img src="/Resources/Chapter4/eventStormin/security-context.png" height="600" alt="Security Context">
-</p>
-
-#### Subscription Plan Context
-Administra los planes comerciales y el modelo de facturación para cada organización dentro de la plataforma. Este componente es responsable de definir los niveles de servicio, gestionar los ciclos de pago y establecer los límites operativos, como el número permitido de puertas o usuarios según el plan adquirido.
-<p align="center">
-  <img src="/Resources/Chapter4/eventStormin/subscription-plan-context.png" width="750" alt="Subscription Plan Context">
-</p>
-
-#### User Context
-Gestiona integralmente los perfiles y permisos de las personas que interactúan con la plataforma, distinguiendo claramente entre el personal administrativo y los usuarios de acceso físico. Este componente se encarga de dar de alta, actualizar o dar de baja a los miembros del sistema, asegurando que cada individuo cuente con las atribuciones necesarias según su rol dentro de la organización. Al centralizar esta administración, el sistema facilita un control preciso sobre quién puede operar el software y quién tiene permitido el ingreso a las instalaciones, manteniendo siempre un registro actualizado de todas las identidades activas.
-
-<p align="center">
-  <img src="/Resources/Chapter4/eventStormin/user-context.png" width="550" alt="User Context">
-</p>
+### 5. Billing & Subscription (Facturación y Suscripciones)
+Gestiona el aspecto comercial y la viabilidad del servicio para cada organización. Se encarga de la entidad **Subscription**, controlando los planes activos, precios y fechas de renovación. Este contexto habilita o restringe funcionalidades avanzadas, como el control por franjas horarias o alertas automáticas, según el estado de pago del cliente.
+<img src="/Resources/Chapter4/eventStormin/Billing-Context.png">
 
 Descripción de los componentes identificados:
 - **Comandos (Azul):** Representan las intenciones de los usuarios o sistemas externos para realizar una acción específica (ej. "Generar Código QR", "Validar Acceso"). 
