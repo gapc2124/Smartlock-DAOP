@@ -815,7 +815,7 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 
 En esta sección se define el **Lenguaje Ubicuo (Ubiquitous Language)** del proyecto, un concepto clave dentro de la arquitectura orientada al dominio (Domain-Driven Design). El objetivo es establecer un vocabulario estandarizado y compartido entre los desarrolladores y los expertos del negocio para evitar ambigüedades. A continuación, se detallan los términos en inglés organizados por sus respectivos contextos (*Bounded Contexts*).
 
-### Identity & Auth Context
+### Authentication (Autenticación e Identidad)
 
 **Términos (Terms):**
 * **Subscription:** Platform tenant subscription.
@@ -830,7 +830,7 @@ En esta sección se define el **Lenguaje Ubicuo (Ubiquitous Language)** del proy
 
 ---
 
-### Physical Space Context
+### Space Management (Gestión de Espacios)
 
 **Términos (Terms):**
 * **Location:** Physical site/office where doors are installed.
@@ -841,7 +841,7 @@ En esta sección se define el **Lenguaje Ubicuo (Ubiquitous Language)** del proy
 
 ---
 
-### Access Control Context
+### Access Control (Control de Acceso)
 
 **Términos (Terms):**
 * **Access User:** Person who passes through physical doors.
@@ -855,7 +855,7 @@ En esta sección se define el **Lenguaje Ubicuo (Ubiquitous Language)** del proy
 
 ---
 
-### Security Context
+### Report & Audit (Reportes y Auditoría)
 
 **Términos (Terms):**
 * **Security Alert:** Notification of suspicious/unsafe activity.
@@ -869,7 +869,7 @@ En esta sección se define el **Lenguaje Ubicuo (Ubiquitous Language)** del proy
 
 ---
 
-### Billing & Subscription Context
+### Billing & Subscription (Facturación y Suscripciones)
 
 **Términos (Terms):**
 * **Subscription Plan:** Paid tier (Free, Professional, Enterprise).
