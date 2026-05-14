@@ -147,122 +147,155 @@ Esta sección presenta los esquemas de baja fidelidad que definen la estructura 
 * **Diseño Inclusivo:** Los wireframes consideran espacios adecuados para elementos interactivos y una disposición clara que facilita el uso de tecnologías de asistencia como lectores de pantalla.
 
 ---
-
-#### A. Flujo de Acceso y Autenticación
-
-### Inicio de Sesión
+### 1. Inicio de Sesión (Login)
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Inicio-sesion.png" width="800" alt="Inicio de Sesión Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/Iniciosesion-wireframe.png" width="800" alt="Login Wireframe">
 </p>
 
-**Descripción:** Wireframe de la pantalla de acceso principal que define la estructura de los campos de autenticación, el botón de inicio de sesión y los elementos de recuperación de acceso.
+**Descripción:** Interfaz de autenticación para el acceso seguro de usuarios al sistema de gestión.
 
----
-
-### Registro de Sesión (Sign Up)
+### 2. Registro de Usuario (Sign Up)
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Registro-Sesion.png" width="800" alt="Registro de Sesión Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/RegistroSesión-wireframe.png" width="800" alt="Registro Wireframe">
 </p>
 
-**Descripción:** Esquema del formulario de registro orientado al alta de nuevos administradores dentro de la plataforma, mostrando la distribución lógica de los campos requeridos.
+**Descripción:** Formulario simplificado para la creación de nuevas cuentas de administrador.
 
----
-
-### Autenticación de Dos Factores (2FA)
+### 3. Autenticación de Dos Factores (2FA)
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Autenticacion-2FA.png" width="800" alt="Autenticación 2FA Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/Autenticacion2FA-wireframe.png" width="800" alt="2FA Wireframe">
 </p>
 
-**Descripción:** Diseño estructural de la segunda capa de seguridad mediante verificación por código, enfocado en la simplicidad de interacción y validación segura del usuario.
+**Descripción:** Pantalla de verificación de seguridad adicional mediante código enviado a dispositivo móvil.
 
----
-
-#### B. Configuración de Infraestructura
-
-### Creación de Sedes (Plan Principiante)
+### 4. Creación de Organización
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/crear-sedes-plan-principiante.png" width="800" alt="Creación de Sedes Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/crear-organizacion.png" width="800" alt="Creación de Organización">
 </p>
 
-**Descripción:** Wireframe del proceso inicial de configuración de sedes, donde se organizan los campos necesarios para el despliegue y administración básica del sistema.
+**Descripción:** Paso inicial para registrar tu nueva organización.
 
----
-
-### Dashboard de Puntos de Control
+### 5. Selección Plan de Suscripción
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Dashboard-Puntos-de-Control.png" width="800" alt="Dashboard Puntos de Control Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/seleccionar-plan-suscripcion.png" width="800" alt="Plan de Suscripción Wireframe">
 </p>
 
-**Descripción:** Esquema de monitoreo de dispositivos físicos y puntos de acceso, utilizando una distribución visual en cuadrícula para facilitar el control operativo en tiempo real.
+**Descripción:** Pantalla de selección de plan de suscripción.
 
----
-
-#### C. Dashboards de Gestión por Niveles
-
-### Dashboard Corporativo
+### 6. Configuración Organización
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Dashboard-corportivo.png" width="800" alt="Dashboard Corporativo Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/form-organizacion-plan principiante.png" width="800" alt="Configuración Organización Wireframe">
 </p>
 
-**Descripción:** Vista de alto nivel orientada a organizaciones empresariales, priorizando métricas globales, indicadores de seguridad y administración multisede.
+**Descripción:** Ajustes detallados de la organización.
 
----
-
-### Dashboard Principiante
+### 7. Confirmación de creación de organización                                      
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Dashboard-gratuito.png" width="800" alt="Dashboard Principiante Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/confirm-plan-suscripcion.png" width="800" alt="Confirmación Organización Wireframe">
 </p>
 
-**Descripción:** Versión simplificada del panel principal, diseñada para usuarios del plan gratuito, manteniendo consistencia visual y acceso a funciones esenciales.
+**Descripción:** Mensaje de éxito al registrar la organización.
 
----
-
-#### D. Administración de Seguridad y Personal
-
-### Dashboard de Usuarios
+### 8. Crear Sedes
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Dashboard-usuarios.png" width="800" alt="Dashboard de Usuarios Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/crear-sede.png" width="800" alt="Configuración de Sedes Wireframe">
 </p>
 
-**Descripción:** Distribución estructural del módulo de gestión de usuarios, incluyendo filtros, tabla de registros, búsqueda avanzada y administración de permisos.
+**Descripción:** Interfaz para añadir una nueva ubicación física.
 
----
-
-### Gestión de Eventos
+### 9. Configuración de Sedes
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Dashboard-eventos.png" width="800" alt="Gestión de Eventos Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/crear-sede-info.png" width="800" alt="Configuración de Sedes Wireframe">
 </p>
 
-**Descripción:** Módulo orientado a la configuración de accesos temporales mediante eventos programados, permitiendo restricciones horarias y control de visitantes.
+**Descripción:** Ajuste de parámetros para cada sede creada.
 
----
-
-### Gestión de Credenciales
+### 10. Panel de Control 
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Dashboard-Credenciales.png" width="800" alt="Gestión de Credenciales Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/panel-control.png" width="800" alt="Panel de Control Wireframe">
 </p>
 
-**Descripción:** Organización funcional del sistema de emisión y control de credenciales digitales, permitiendo el seguimiento de accesos autorizados.
+**Descripción:** Vista general del estado de las sedes.
 
----
-
-### Bitácora de Accesos
+### 11. Bitácora de accesos
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/Dashboard-Bitacora.png" width="800" alt="Bitácora de Accesos Wireframe">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/Dashboard-bitacora.png" width="800" alt="Bitácora Wireframe">
 </p>
 
-**Descripción:** Estructura diseñada para la visualización de logs históricos de acceso, facilitando auditorías de seguridad y trazabilidad de eventos.
+**Descripción:** Registro detallado del historial de los accesos.
+
+### 12. Control de Entidades(Accesos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-accesos.png" width="800" alt="Accesos Wireframe">
+</p>
+
+**Descripción:** Directorio completo de usuarios con acceso permitido.
+
+### 13. Control de Entidades(Personas)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-personas.png" width="800" alt="Personas Wireframe">
+</p>
+
+**Descripción:** Asignación de roles y permisos por usuario.
+
+### 14. Control de Entidades(Grupos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-grupos.png" width="800" alt="Grupos Wireframe">
+</p>
+
+**Descripción:** Asignación de grupos de personas.
+
+### 15. Control de Entidades(Administradores)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-admins.png" width="800" alt="Administradores Wireframe">
+</p>
+
+**Descripción:** Asignacion de permisos a administradores.
+
+### 16. Control de Entidades(Añadir Accesos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-añadir-accesos.png" width="800" alt="Añadir Accesos Wireframe">
+</p>
+
+### 17. Control de Entidades(Añadir Personas)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-añadir-personas.png" width="800" alt="Añadir Personas Wireframe">
+</p>
+
+### 18. Control de Entidades(Añadir Grupos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-añadir-admins.png" width="800" alt="Añadir Grupos Wireframe">
+</p>
+
+### 19. Control de Entidades(Añadir Administradores)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/ControlEntidades-añadir-admins.png" width="800" alt="Añadir Administradores Wireframe">
+</p>
+
+### 20. Confirmación de Cierre de Sesión
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireframes/CerrarSesion-wireframe.png" width="800" alt="Logout Wireframe">
+</p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 *[Sección en desarrollo]*
@@ -270,42 +303,166 @@ Esta sección presenta los esquemas de baja fidelidad que definen la estructura 
 ### 4.4.3. Web Applications Mock-ups.
 Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de SmartLock. Estos diseños representan la apariencia visual final del sistema, incluyendo identidad visual, paleta de colores, tipografía, distribución de componentes y experiencia de usuario orientada a la implementación real del producto.
 
----
+### 1. Inicio de Sesión (Login)
 
-#### A. Flujo de Acceso y Seguridad
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/InicioSesión-Mockup.png" width="800" alt="Login Mockup">
+</p>
 
-### Inicio de Sesión
+**Descripción:** Pantalla de acceso seguro al sistema principal.
 
-![Inicio de Sesión Mockup](/Resources/Chapter4/Web-Application/Inicio-Sesion-Mockup.png)
+### 2. Registro de Usuario (Sign Up)
 
-**Descripción:** Mock-up de la pantalla principal de acceso al sistema, donde se visualiza la interfaz final de autenticación con diseño visual completo, jerarquía de botones y elementos de recuperación de acceso.
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/RegistroSesión-Mockup.png" width="800" alt="Registro Mockup">
+</p>
 
----
+**Descripción:** Formulario rápido para crear una cuenta nueva.
 
-### Registro de Sesión (Sign Up)
+### 3. Autenticación de Dos Factores (2FA)
 
-![Registro de Sesión Mockup](/Resources/Chapter4/Web-Application/Registro-Sesion-Mockup.png)
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/Autenticacion2FA-mockup.png" width="800" alt="2FA Mockup">
+</p>
 
-**Descripción:** Representación visual del formulario de registro de nuevos administradores, mostrando el diseño definitivo de campos, validaciones visuales y estructura de navegación.
+**Descripción:** Capa extra de seguridad con código móvil.
 
----
+### 4. Creación de Organización
 
-### Autenticación de Dos Factores (2FA)
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/crear-organizacion-mockup.png" width="800" alt="Creación de Organización Mockup">
+</p>
 
-![Autenticación 2FA Mockup](/Resources/Chapter4/Web-Application/Autentificacion-de-2-Factores-Mockup.png)
+**Descripción:** Paso inicial para registrar tu nueva organización.
 
-**Descripción:** Diseño final de la segunda capa de seguridad mediante código de verificación, enfocado en claridad visual, seguridad y facilidad de uso para el usuario.
+### 5. Selección Plan de Suscripción
 
----
-#### B. Configuración de Infraestructura
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/seleccionar-plan-mockup.png" width="800" alt="Plan de Suscripción Mockup">
+</p>
 
-### Dashboard Plan Principiante
+**Descripción:** Pantalla de selección de plan de suscripción.
 
-![Dashboard Plan Principiante Mockup](/Resources/Chapter4/Web-Application/Dashboard-Plan-Principiante-Mockup.png)
+### 6. Configuración Organización
 
-**Descripción:** Mock-up del panel principal para usuarios del plan principiante, presentando una interfaz simplificada con acceso rápido a funciones esenciales y monitoreo básico del sistema.
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/form-organizacion-mockup.png" width="800" alt="Configuración Organización Mockup">
+</p>
 
----
+**Descripción:** Ajustes detallados de la organización activa.
+
+### 7. Confirmación de creación de organización
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/confirm-plan-mockup.png" width="800" alt="Confirmación Organización Mockup">
+</p>
+
+**Descripción:** Mensaje de éxito al registrar la organización.
+
+### 8. Crear Sedes
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/crear-sede-Mockup.png" width="800" alt="Configuración de Sedes Mockup">
+</p>
+
+**Descripción:** Interfaz para añadir una nueva ubicación física.
+
+### 9. Configuración de Sedes
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/crear-sede-info-Mockup.png" width="800" alt="Configuración de Sedes Mockup">
+</p>
+
+**Descripción:** Ajuste de parámetros para cada sede creada.
+
+### 10. Panel de Control
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/panel-control-Mockup.png" width="800" alt="Panel de Control Mockup">
+</p>
+
+**Descripción:** Vista general del estado de las sedes.
+
+### 11. Bitácora de accesos
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/Dashboard-bitacora-Mockup.png" width="800" alt="Bitácora Mockup">
+</p>
+
+**Descripción:** Registro detallado del historial de los accesos.
+
+### 12. Control de Entidades (Accesos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-accesos-mockup.png" width="800" alt="Accesos Mockup">
+</p>
+
+**Descripción:** Directorio completo de usuarios con acceso permitido.
+
+### 13. Control de Entidades (Personas)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-personas-mockup.png" width="800" alt="Personas Mockup">
+</p>
+
+**Descripción:** Asignación de roles y permisos por usuario.
+
+### 14. Control de Entidades (Grupos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-grupos-mockup.png" width="800" alt="Grupos Mockup">
+</p>
+
+**Descripción:** Interfaz para la gestión de grupos operativos.
+
+### 15. Control de Entidades (Administradores)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-admins-mockup.png" width="800" alt="Administradores Mockup">
+</p>
+
+**Descripción:** Asignación de permisos a administradores del sistema.
+
+### 16. Control de Entidades (Añadir Accesos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-añadir-accesos-mockup.png" width="800" alt="Añadir Accesos Mockup">
+</p>
+
+**Descripción:** Formulario para registrar nuevos permisos de entrada.
+
+### 17. Control de Entidades (Añadir Personas)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-añadir-personas-mockup.png" width="800" alt="Añadir Personas Mockup">
+</p>
+
+**Descripción:** Registro de nuevos integrantes a la plataforma.
+
+### 18. Control de Entidades (Añadir Grupos)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-añadir-grupo-mockup.png" width="800" alt="Añadir Grupos Mockup">
+</p>
+
+**Descripción:** Creación de nuevos grupos de trabajo específicos.
+
+### 19. Control de Entidades (Añadir Administradores)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-admins-añadir-mockup.png" width="800" alt="Añadir Administradores Mockup">
+</p>
+
+**Descripción:** Alta de nuevos perfiles con privilegios administrativos.
+
+### 20. Confirmación de Cierre de Sesión
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/mockups/CerrarSesion-mockup.png" width="800" alt="Logout Mockup">
+</p>
+
+**Descripción:** Ventana segura para salir de la plataforma.
+
 ### 4.4.4. Web Applications User Flow Diagrams.
 *[Sección en desarrollo]*
 
